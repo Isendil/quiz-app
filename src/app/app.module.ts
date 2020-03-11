@@ -9,7 +9,7 @@ import { ReactiveFormsModule } from "@angular/forms";
 import { ResultsComponent } from "./results/results.component";
 import { RouterModule, Routes } from "@angular/router";
 import { WelcomeComponent } from "./welcome/welcome.component";
-import { QuestionsComponent } from './questions/questions.component';
+import { QuestionsComponent } from "./questions/questions.component";
 
 const appRoutes: Routes = [
   { path: "welcome", component: WelcomeComponent },
