@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "ng build --prod",
+    "postinstall": "ng build --aot -prod",
     "ng": "ng",
     "build": "ng build",
     "test": "ng test",
@@ -52,7 +52,7 @@
     "tslint": "~5.18.0"
   },
   "engines": {
-    "node": "6.11.0",
-    "npm": "3.10.10"
+    "node": "10.16.3",
+    "npm": "6.12.0"
   }
 }
