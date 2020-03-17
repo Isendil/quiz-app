@@ -10,6 +10,7 @@ import { ResultsComponent } from "./results/results.component";
 import { RouterModule, Routes } from "@angular/router";
 import { WelcomeComponent } from "./welcome/welcome.component";
 import { QuestionsComponent } from "./questions/questions.component";
+import { MatCardModule } from "@angular/material/card";
 
 const appRoutes: Routes = [
   { path: "welcome", component: WelcomeComponent },
@@ -30,7 +31,8 @@ const appRoutes: Routes = [
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
